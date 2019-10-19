@@ -7,8 +7,8 @@ function playAudio(a) {
 // 		x[i].pause();
 // 		console.log("pause");
 // 	};
+	x[a].pause();
 	x[a].play();
-	console.log("play");
 } 
 
 function pauseAudio() { 
