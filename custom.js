@@ -8,6 +8,7 @@ function playAudio(a) {
 // 		console.log("pause");
 // 	};
 	x[a].pause();
+	x[a].currentTime = 0
 	x[a].play();
 } 
 
