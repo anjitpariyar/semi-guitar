@@ -3,10 +3,10 @@ var x = document.querySelectorAll(".guitar1");
 var a;
 
 function playAudio(a) {
-	for(var i=0;i<=3;i++){
-		x[i].pause();
-		console.log("pause");
-	};
+// 	for(var i=0;i<=3;i++){
+// 		x[i].pause();
+// 		console.log("pause");
+// 	};
 	x[a].play();
 	console.log("play");
 } 
